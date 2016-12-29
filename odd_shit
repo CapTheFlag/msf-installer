@@ -1,0 +1,47 @@
+FUCK
+
+RUBY
+
+RUN ALL THIS SHIT AS ROOT
+BECAUSE FUCK SECURITY
+
+install rbenv
+follow the fucking github directions. you cunt.
+
+install ruby-build
+
+close your session, open a new one. be root again. you cunt.
+
+install all this shit
+sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties
+
+rbenv install 2.1.5
+
+rbenv global 2.1.5
+
+ruby -v
+if it doesn't say 2.1.5 you fucked up do it again. STOP FUCKING IT UP.
+
+git clone https://github.com/darkoperator/MSF-Installer.git
+
+cd MSF-Installer
+(skip this checkout bit if darkoperator updated it to work at HEAD)
+git checkout 7a86de4f9f00cf85c2b8e56f47b5092ad498948f
+
+./msf_intstall.sh -i -p
+
+# go poop
+
+cd /usr/local/share/metasploit-framework
+
+bundle install
+
+exit. exit. exit. exit. exit. 
+
+relogin
+
+BE ROOT
+
+msfconsole
+
+hnnnnng
